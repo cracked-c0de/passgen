@@ -54,7 +54,7 @@ small {
 }
 .content button {
     padding: 3px 5px;
-    margin-left: 5px;
+    margin: 5px 5px 5px 0px;
     cursor: pointer;
     background-color: #ffffffa3;
     border: none;
