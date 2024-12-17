@@ -88,6 +88,7 @@ function App() {
       {message}
       <label htmlFor="length">Length:</label> <br />
       <input type="number" name="length" id="length" ref={length} placeholder="1-24"/>
+      <br />
       <button onClick={() => generate()}>Generate</button>
       <button onClick={() => copy()}>Copy</button>
       <p>Password Level: <span style={{color, fontWeight: "bold"}}>{level}</span></p>
